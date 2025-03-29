@@ -7,13 +7,14 @@ public class CatController {
 
     public void run() {
         Cat cat = new Cat("Misifuso", "Persa", 11);
+        System.out.println(cat);
+
         CatMethods catMethods = new CatMethods();
 
         catMethods.serializeCat(cat);
-        System.out.println("Objecto Cat con nombre Misifuso serializado");
+        System.out.println(cat.getName() + " serializado D:");
 
-        catMethods.deserializeCat(cat);
-        System.out.println("Misifuso deserializado ^•ﻌ•^");
+        System.out.println(catMethods.deserializeCat() + " ^•ﻌ•^");
     }
 
 }

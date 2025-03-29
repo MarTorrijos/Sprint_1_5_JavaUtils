@@ -3,8 +3,9 @@ Pasos a seguir para ejecutar el programa desde la terminal:
 - Iniciar la terminal en la carpeta raíz del proyecto
 
 - Escribir:
-    javac -d bin src/main/java/level_1/exercici_5/Main.java
+    javac -d bin -cp src src/main/java/level_1/exercici_5/*.java src/main/java/level_1/exercici_5/controller/*.java
     Esto compilará el programa en una carpeta llamada bin en la raíz del proyecto
+    Si usara Maven o Gradle sería más sencilla la compilación y no tendría que copiar tanto texto. Ups
 
 - Para ejecutar el programa, escribir en terminal:
     java -cp bin main/java/level_1/exercici_5/Main

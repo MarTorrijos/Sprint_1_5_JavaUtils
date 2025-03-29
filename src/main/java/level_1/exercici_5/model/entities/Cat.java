@@ -14,4 +14,12 @@ public class Cat implements Serializable {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String toString() {
+        return name + " de raza " + breed + " y " + age + " años de edad";
+    }
+
 }
