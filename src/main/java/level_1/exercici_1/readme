@@ -9,10 +9,4 @@ Pasos a seguir para ejecutar el programa desde la terminal:
 - Para ejecutar el programa, escribir en terminal:
     java -cp bin main/java/level_1/exercici_1/Main
 
-- Devuelve por terminal:
-    - doc1
-    - doc2
-    - password
-
-El sistema operativo utilizado es Linux.
-Otro sistema operativo puede usar otro tipo de forma de escribir rutas que no use /
+- Devuelve por terminal el contenido
