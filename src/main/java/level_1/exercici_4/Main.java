@@ -10,8 +10,6 @@ import java.util.List;
 
 public class Main {
 
-    // Afegeix la funcionalitat de llegir qualsevol fitxer TXT i mostra el seu contingut per consola
-
     public static void main(String[] args) {
         Path directory = Paths.get(System.getProperty("user.dir"), "resources");
         String fileName = "Result.txt";
