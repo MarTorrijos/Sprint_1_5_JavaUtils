@@ -1,4 +1,4 @@
-package main.java.level_1.exercici_5.model.entities;
+package main.java.level_1.exercici_5.model;
 
 import java.io.Serializable;
 

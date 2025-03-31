@@ -1,7 +1,7 @@
-package main.java.level_1.exercici_5.controller;
+package main.java.level_1.exercici_5;
 
 import main.java.level_1.exercici_5.model.CatMethods;
-import main.java.level_1.exercici_5.model.entities.Cat;
+import main.java.level_1.exercici_5.model.Cat;
 
 public class CatController {
 
